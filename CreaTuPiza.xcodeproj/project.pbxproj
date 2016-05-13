@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B998CCB01CE3A3B200031686 /* ElegirIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B998CCAF1CE3A3B200031686 /* ElegirIngredientes.swift */; settings = {ASSET_TAGS = (); }; };
+		B998CCB21CE3A7E300031686 /* RevisarOrden.swift in Sources */ = {isa = PBXBuildFile; fileRef = B998CCB11CE3A7E300031686 /* RevisarOrden.swift */; settings = {ASSET_TAGS = (); }; };
 		B99EB3111CE2306300E2F80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3101CE2306300E2F80F /* AppDelegate.swift */; };
 		B99EB3131CE2306300E2F80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3121CE2306300E2F80F /* ViewController.swift */; };
 		B99EB3161CE2306300E2F80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99EB3141CE2306300E2F80F /* Main.storyboard */; };
 		B99EB3181CE2306300E2F80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99EB3171CE2306300E2F80F /* Assets.xcassets */; };
 		B99EB31B1CE2306300E2F80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99EB3191CE2306300E2F80F /* LaunchScreen.storyboard */; };
+		B99EB3231CE232E000E2F80F /* ElegirTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3221CE232E000E2F80F /* ElegirTamano.swift */; settings = {ASSET_TAGS = (); }; };
+		B99EB3251CE23B2100E2F80F /* ElegirMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3241CE23B2100E2F80F /* ElegirMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		B9B0B6E11CE2EC4600744682 /* ElegirQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B6E01CE2EC4600744682 /* ElegirQueso.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B998CCAF1CE3A3B200031686 /* ElegirIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegirIngredientes.swift; sourceTree = "<group>"; };
+		B998CCB11CE3A7E300031686 /* RevisarOrden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevisarOrden.swift; sourceTree = "<group>"; };
 		B99EB30D1CE2306300E2F80F /* CreaTuPiza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreaTuPiza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99EB3101CE2306300E2F80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B99EB3121CE2306300E2F80F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		B99EB3171CE2306300E2F80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99EB31A1CE2306300E2F80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B99EB31C1CE2306300E2F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99EB3221CE232E000E2F80F /* ElegirTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegirTamano.swift; sourceTree = "<group>"; };
+		B99EB3241CE23B2100E2F80F /* ElegirMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegirMasa.swift; sourceTree = "<group>"; };
+		B9B0B6E01CE2EC4600744682 /* ElegirQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegirQueso.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				B99EB3171CE2306300E2F80F /* Assets.xcassets */,
 				B99EB3191CE2306300E2F80F /* LaunchScreen.storyboard */,
 				B99EB31C1CE2306300E2F80F /* Info.plist */,
+				B99EB3221CE232E000E2F80F /* ElegirTamano.swift */,
+				B99EB3241CE23B2100E2F80F /* ElegirMasa.swift */,
+				B9B0B6E01CE2EC4600744682 /* ElegirQueso.swift */,
+				B998CCAF1CE3A3B200031686 /* ElegirIngredientes.swift */,
+				B998CCB11CE3A7E300031686 /* RevisarOrden.swift */,
 			);
 			path = CreaTuPiza;
 			sourceTree = "<group>";
@@ -134,6 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B998CCB01CE3A3B200031686 /* ElegirIngredientes.swift in Sources */,
+				B9B0B6E11CE2EC4600744682 /* ElegirQueso.swift in Sources */,
+				B99EB3231CE232E000E2F80F /* ElegirTamano.swift in Sources */,
+				B99EB3251CE23B2100E2F80F /* ElegirMasa.swift in Sources */,
+				B998CCB21CE3A7E300031686 /* RevisarOrden.swift in Sources */,
 				B99EB3131CE2306300E2F80F /* ViewController.swift in Sources */,
 				B99EB3111CE2306300E2F80F /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +305,7 @@
 				B99EB3211CE2306300E2F80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
